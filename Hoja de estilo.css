@@ -1,0 +1,115 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200..700&display=swap');
+        body{
+        background-image: url(Fondosi.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-color: rgba(95, 95, 95, 0.644);
+        text-shadow: 10px;
+
+    }
+    article {
+    text-align: center;
+    border: solid rgba(44, 44, 44, 0.692);
+    border-width: 5px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 41, 41, 0.749);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 300px;
+    padding-top: 10px;
+    width: 1065px;
+    margin: 30px auto;
+    align-items: center;
+    }
+       
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; 
+            gap: 20px; 
+            padding: 20px; 
+            flex-grow: 4;
+        }
+        nav{
+            flex-grow: 1;
+            min-width: 300px;
+        }
+
+        div{
+            width: 200px;
+            height: 250px;
+            border-radius: 15px;
+            color: aliceblue;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgba(44, 43, 43, 0.658); 
+            padding: 10px;
+        }
+
+        div img{
+            width: 160px;
+            height: 160px;
+            margin: 5px;
+            border-radius: 80px;
+        }
+
+        div:hover{
+            background-color: rgba(103, 175, 216, 0.555);
+        }
+
+        .cantante{
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 600px; 
+            height: 152px;
+            border-radius: 12px;
+            margin-bottom: 20px; 
+        }
+        h1{
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+section {
+    text-align: center;
+    border: solid rgba(44, 44, 44, 0.89);
+    border-width: 5px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 41, 41, 0.749);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+    padding-top: 10px;
+    width: 1065px;
+    margin: 30px auto;
+    align-items: center;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    text-shadow: 10px;
+}
+h1{
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
