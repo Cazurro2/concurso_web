@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina - Género Urbano</title>
+    <link rel="icon" href="Argentina.png" type="image/x-icon">
+    <link rel="stylesheet" href="ESTILO PAISES.css">
+</head>
+
+<body>
+    <header>
+        <a href="INDEX.html">
+            <h1>El Género Urbano en Argentina</h1>
+        </a>
+    </header>
+
+    <main class="cantantes-container">
+        <a href="ESPAÑA.html" class="cantante-card">
+            <p>España</p>
+            <img src="QVD.png" alt="España">
+        </a>
+        <a href="PUERTORICO.html" class="cantante-card">
+            <p>Puerto Rico</p>
+            <img src="BadBunny.png" alt="Puerto Rico">
+        </a>
+        <a href="COLOMBIA.html" class="cantante-card">
+            <p>Colombia</p>
+            <img src="Feid.avif" alt="Colombia">
+        </a>
+        <a href="ARGENTINA.html" class="cantante-card active">
+            <p>Argentina</p>
+            <img src="Duki.jpg" alt="Argentina">
+        </a>
+    </main>
+
+    <section class="info">
+        <div class="artist">
+            <img src="Duki2.jpg" alt="Duki">
+            <div>
+                <h2>Duki</h2>
+                <p>
+                    Duki es uno de los máximos exponentes del trap argentino. Con su estilo audaz, ha consolidado su lugar en la escena urbana latina.
+                    Canciones como "She Don't Give a FO" lo han catapultado al éxito.
+                </p>
+                <a href="https://www.duki.com.ar/">
+                    <button class="boton">Explora su web</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Emilia.jpg" alt="Emilia Mernes">
+            <div>
+                <h2>Emilia Mernes</h2>
+                <p>
+                    Emilia Mernes es una de las promesas del pop urbano latinoamericano. Con su fusión de pop, reguetón y trap, ha ganado una gran base de seguidores.
+                </p>
+                <a href="https://www.emiliamp3.com/">
+                    <button class="boton">Explora su web</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Nicki.jpg" alt="Nicki Nicole">
+            <div>
+                <h2>Nicki Nicole</h2>
+                <p>
+                    Nicki Nicole es conocida por su estilo auténtico, fusionando trap, reguetón y R&B. Con su lírica introspectiva, ha cautivado al público latinoamericano.
+                </p>
+                <a href="https://www.nickinicole.com/">
+                    <button class="boton">Explora su web</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Tiago.jpg" alt="Tiago PZK">
+            <div>
+                <h2>Tiago PZK</h2>
+                <p>
+                    Tiago PZK es un joven talento que ha crecido rápidamente en la escena del trap y reguetón. Con colaboraciones con artistas como Duki, ha ganado popularidad internacional.
+                </p>
+                <a href="https://www.tiagopzk.com/">
+                    <button class="boton">Entradas ya a la venta</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Trueno.jpg" alt="Tiago PZK">
+            <div>
+                <h2>Trueno</h2>
+                <p>
+                    Trueno es un rapero y compositor argentino, destacado por su estilo único que fusiona rap, trap y la cultura urbana, con letras que reflejan su realidad y su identidad.
+                </p>
+                <a href="https://linktr.ee/truenotr1">
+                    <button class="boton">Descubre más</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Bizarrap.jpg" alt="Tiago PZK">
+            <div>
+                <h2>Bizarrap</h2>
+                <p>
+                    Bizarrap es un productor musical argentino famoso por sus sessiones de freestyle con artistas de todo el mundo, creando éxitos virales en el género urbano.
+                </p>
+                <a href="https://www.youtube.com/channel/UCmS75G-98QihSusY7NfCZtw">
+                    <button class="boton">Escucha su sessions</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <button class="boton" id="myBtn">Escucha Nueva Era</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <iframe width="800" height="500" src="VideoDuki.mp4"></iframe>
+                <button id="closeBtn">Cerrar</button>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var closeBtn = document.getElementById("closeBtn");
+
+        btn.onclick = function() {
+            modal.style.display = "flex";
+        }
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>

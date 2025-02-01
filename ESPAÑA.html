@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>España - Género Urbano</title>
+    <link rel="icon" href="España.webp" type="image/x-icon">
+    <link rel="stylesheet" href="ESTILO PAISES.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="INDEX.html">
+            <h1>El Género Urbano en España</h1>
+        </a>
+    </header>
+
+    <main>
+        <main class="cantantes-container">
+            <a href="ESPAÑA.html" class="cantante-card">
+                <p>España</p>
+                <img src="QVD.png" alt="España">
+            </a>
+            <a href="PUERTORICO.html" class="cantante-card">
+                <p>Puerto Rico</p>
+                <img src="BadBunny.png" alt="Puerto Rico">
+            </a>
+            <a href="COLOMBIA.html" class="cantante-card">
+                <p>Colombia</p>
+                <img src="Feid.avif" alt="Colombia">
+            </a>
+            <a href="ARGENTINA.html" class="cantante-card">
+                <p>Argentina</p>
+                <img src="Duki.jpg" alt="Argentina">
+            </a>
+    </main>
+    <section>
+        <section class="info">
+            <article class="artist">
+                <img src="Quevedo.jpg" alt="Quevedo">
+                <div>
+                    <h2>Quevedo</h2>
+                    <p>
+                        Quevedo comenzó su carrera en 2020 con el productor Linton. En 2022, su éxito con Bizarrap lo lanzó a la fama global. En 2024, lanzó "La Última", reflexionando sobre su carrera.
+                    </p>
+                    <a href="https://www.quevedoyouknow.com/" class="boton">Explora su web</a>
+                </div>
+            </article>
+
+            <article class="artist">
+                <img src="Saiko.jpg" alt="Saiko">
+                <div>
+                    <h2>Saiko</h2>
+                    <p>
+                        Saiko se consolidó en 2022 con "Polaris". En 2024, lanzó su primer álbum "Sakura", con colaboraciones de J Balvin y Bryant Myers.
+                    </p>
+                    <a href="https://saikoneta.com/" class="boton">Explora su web</a>
+                </div>
+            </article>
+
+            <article class="artist">
+                <img src="Lucho.jpg" alt="Lucho RK">
+                <div>
+                    <h2>Lucho RK</h2>
+                    <p>
+                        Lucho RK ha ganado reconocimiento en la escena urbana canaria con un estilo auténtico y letras profundas.
+                    </p>
+                    <a href="https://www.youtube.com/@luchork" class="boton">Escúchalo en YouTube</a>
+                </div>
+            </article>
+
+            <article class="artist">
+                <img src="Clio.jpg" alt="Raúl Clyde">
+                <div>
+                    <h2>Raúl Clyde</h2>
+                    <p>
+                        Raúl Clyde combina rap, trap y reguetón, destacándose en la escena emergente del género urbano.
+                    </p>
+                    <a href="https://raulclyde.com/" class="boton">Descubre más</a>
+                </div>
+            </article>
+
+            <article class="artist">
+                <img src="CruzCafune.jpg" alt="Saiko">
+                <div>
+                    <h2>Cruz Cafuné</h2>
+                    <p>
+                        Cruz Cafuné es un rapero y compositor de Tenerife, reconocido por su estilo único que fusiona rap, trap y letras introspectivas.
+                    </p>
+                    <a href="https://mecen.es/artistas/cruz-cafune/" class="boton">Explora su web</a>
+                </div>
+            </article>
+
+            <article class="artist">
+                <img src="LaPantera.jpg" alt="Saiko">
+                <div>
+                    <h2>La Pantera</h2>
+                    <p>
+                        La Pantera es una cantante y rapera española conocida por su estilo directo y auténtico, fusionando trap, rap y música urbana con letras poderosas y personales.
+                    </p>
+                    <a href="https://www.youtube.com/@lapanterabby" class="boton">Escúchalo en YouTube</a>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <footer>
+        <button class="boton" id="myBtn">Escucha HALO</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <iframe width="800" height="500" src="VideoQuevedo.mp4"></iframe>
+                <button id="closeBtn">Cerrar</button>
+            </div>
+        </div>
+
+        <script>
+            var modal = document.getElementById("myModal");
+            var btn = document.getElementById("myBtn");
+            var closeBtn = document.getElementById("closeBtn");
+
+            btn.onclick = function () {
+                modal.style.display = "flex";
+            }
+
+            closeBtn.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+    </footer>
+
+</body>
+
+</html>
