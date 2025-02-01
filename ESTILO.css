@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Lilita+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #2d2d2d;
+    background-image: url('Fondosi.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+.cantantes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.cantante-card {
+    background-color: rgba(44, 43, 43, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cantante-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.5);
+    background-color: rgba(44, 43, 43, 0.95);
+}
+
+
+.cantante-card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #FFD700; 
+}
+
+.cantante-card a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.cantante-card a:hover {
+    color: white; 
+}
+
+.info {
+    background-color: rgba(43, 41, 41, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: left;
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); 
+}
+
+.info h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #FFD700; 
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #ccc; 
+}
+
+
+.info button {
+    background-color: #FFD700;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.info button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Modal */
+.modal-content iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .cantantes-container {
+        grid-template-columns: 1fr;
+    }
+
+    .info {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+.artist img:hover {
+    transform: scale(1.05) rotate(-3deg);
+}   

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puerto Rico - Género Urbano</title>
+    <link rel="icon" href="PuertoRico.png" type="image/x-icon">
+    <link rel="stylesheet" href="ESTILO PAISES.css">
+</head>
+
+<body>
+    <header>
+        <a href="INDEX.html">
+            <h1>El Género Urbano en Puerto Rico</h1>
+        </a>
+    </header>
+
+    <main class="cantantes-container">
+        <a href="ESPAÑA.html" class="cantante-card">
+            <p>España</p>
+            <img src="QVD.png" alt="España">
+        </a>
+        <a href="PUERTORICO.html" class="cantante-card">
+            <p>Puerto Rico</p>
+            <img src="BadBunny.png" alt="Puerto Rico">
+        </a>
+        <a href="COLOMBIA.html" class="cantante-card">
+            <p>Colombia</p>
+            <img src="Feid.avif" alt="Colombia">
+        </a>
+        <a href="ARGENTINA.html" class="cantante-card">
+            <p>Argentina</p>
+            <img src="Duki.jpg" alt="Argentina">
+        </a>
+    </main>
+
+    <section class="info">
+        <div class="artist">
+            <img src="BadBunny2.jpg" alt="Bad Bunny">
+            <div>
+                <h2>Bad Bunny</h2>
+                <p>
+                    Bad Bunny, nacido como Benito Antonio Martínez Ocasio en Puerto Rico, ha revolucionado la música 
+                    urbana con su estilo innovador. Sus álbumes han roto récords y su impacto global sigue creciendo.
+                </p>
+                <a href="https://open.spotify.com/intl-es/artist/4q3ewBCX7sLwd24euuV69X">
+                    <button class="boton">Escúchalo en Spotify</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="DaddyYankee.jpg" alt="Daddy Yankee">
+            <div>
+                <h2>Daddy Yankee</h2>
+                <p>
+                    Conocido como el "Rey del Reguetón", Daddy Yankee ha sido clave en la expansión del género. 
+                    Canciones como "Gasolina" lo llevaron a la fama mundial.
+                </p>
+                <a href="https://www.youtube.com/user/DaddyYankeeOFFTV">
+                    <button class="boton">Escúchalo en YouTube</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Anuel.jpg" alt="Anuel AA">
+            <div>
+                <h2>Anuel AA</h2>
+                <p>
+                    Figura central del trap latino, Anuel AA ha transformado el género con su estilo realista y 
+                    directo, acumulando millones de seguidores en todo el mundo.
+                </p>
+                <a href="https://open.spotify.com/intl-es/artist/2R21vXR83lH98kGeO99Y66">
+                    <button class="boton">Escúchalo en Spotify</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="WisinYandel.jpg" alt="Wisin & Yandel">
+            <div>
+                <h2>Wisin & Yandel</h2>
+                <p>
+                    Este icónico dúo ha marcado generaciones con su música, siendo pilares fundamentales del reguetón 
+                    y referentes del género a nivel global.
+                </p>
+                <a href="https://www.youtube.com/channel/UCwR_LqB7g3-_J7p1nscCbEA">
+                    <button class="boton">Escúchalos en YouTube</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Myke.jpg" alt="Wisin & Yandel">
+            <div>
+                <h2>Myke Towers</h2>
+                <p>
+                    Myke Towers es un cantante y rapero puertorriqueño reconocido por su estilo en el reguetón y trap, con letras pegajosas y un enfoque melódico.
+                </p>
+                <a href="https://open.spotify.com/intl-es/artist/7iK8PXO48WeuP03g8YR51W?si=eFbQFShsQpmuDOgvfk40aQ">
+                    <button class="boton">Escúchalo en Spotify </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Ozuna.jpg" alt="Wisin & Yandel">
+            <div>
+                <h2>Ozuna</h2>
+                <p>
+                    Ozuna es un cantante y compositor puertorriqueño destacado en el reguetón y la música urbana, famoso por su voz suave y sus éxitos internacionales.
+                </p>
+                <a href="https://www.instagram.com/ozuna/">
+                    <button class="boton">Síguelo en Instagram</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <button class="boton" id="myBtn">Escucha "VOY A LLeVARTE PA PR"</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <iframe width="800" height="500" src="VideoBadBo.mp4"></iframe>
+                <button id="closeBtn">Cerrar</button>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var closeBtn = document.getElementById("closeBtn");
+
+        btn.onclick = function() {
+            modal.style.display = "flex";
+        }
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>

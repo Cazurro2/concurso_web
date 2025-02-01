@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombia - Género Urbano</title>
+    <link rel="icon" href="Colombia.png" type="image/x-icon">
+    <link rel="stylesheet" href="ESTILO PAISES.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="INDEX.html">
+            <h1>El Género Urbano en Colombia</h1>
+        </a>
+    </header>
+
+
+    <main class="cantantes-container">
+        <a href="ESPAÑA.html" class="cantante-card">
+            <p>España</p>
+            <img src="QVD.png" alt="España">
+        </a>
+        <a href="PUERTORICO.html" class="cantante-card">
+            <p>Puerto Rico</p>
+            <img src="BadBunny.png" alt="Puerto Rico">
+        </a>
+        <a href="COLOMBIA.html" class="cantante-card active">
+            <p>Colombia</p>
+            <img src="Feid.avif" alt="Colombia">
+        </a>
+        <a href="ARGENTINA.html" class="cantante-card">
+            <p>Argentina</p>
+            <img src="Duki.jpg" alt="Argentina">
+        </a>
+    </main>
+
+    <section class="info">
+        <div class="artist">
+            <img src="Ferxxo.jpg" alt="Feid">
+            <div>
+                <h2>Feid</h2>
+                <p>
+                    Feid es uno de los artistas más innovadores del género urbano, fusionando reguetón con pop y trap. 
+                    Su talento ha sido reconocido globalmente, trabajando con artistas como J Balvin y Karol G.
+                </p>
+                <a href="https://www.instagram.com/feid/">
+                    <button class="boton">Síguelos en Instagram</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="JBalvin.jpg" alt="J Balvin">
+            <div>
+                <h2>J Balvin</h2>
+                <p>
+                    J Balvin es una leyenda moderna del reguetón, llevando su estilo innovador y tropical por todo el mundo.
+                    Con éxitos como "Mi Gente" y colaboraciones con artistas globales, ha dejado huella en la música urbana.
+                </p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO0POF7a">
+                    <button class="boton">Lo mejor de J Balvin</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="KarolG.jpg" alt="Karol G">
+            <div>
+                <h2>Karol G</h2>
+                <p>
+                    Karol G ha conquistado al mundo con su poderosa voz y estilo único. Con éxitos como "Tusa" y "Bichota", 
+                    ha demostrado ser una figura clave en la música urbana femenina.
+                </p>
+                <a href="https://www.karolgmusic.com/">
+                    <button class="boton">Descubre más sobre ella</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Maluma.jpg" alt="Maluma">
+            <div>
+                <h2>Maluma</h2>
+                <p>
+                    Maluma ha llegado a la cima de las listas con canciones como "Felices los 4" y "Hawái". Su carisma y 
+                    estilo único lo han consolidado como uno de los artistas más grandes del reguetón global.
+                </p>
+                <a href="https://maluma.online/">
+                    <button class="boton">Descubre más sobre él</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="Shakira.jpg" alt="Maluma">
+            <div>
+                <h2>Shakira</h2>
+                <p>
+                    Shakira es una cantante y compositora colombiana, famosa por su estilo único que mezcla pop, reguetón y música latina, y por su impacto global en la música.
+                </p>
+                <a href="https://www.shakira.com/?queueittoken=e_shakira~ts_1738424803~ce_true~rt_safetynet~h_16be7b975f86d018b092e4eb9e483b0392eef540643bf668d74b124f52a5c4b5">
+                    <button class="boton">Entradas a la venta</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="artist">
+            <img src="ManuelTurizo.jpg" alt="Maluma">
+            <div>
+                <h2>Manuel Turizo</h2>
+                <p>
+                    Manuel Turizo es un cantante y compositor colombiano, conocido por su estilo en el reguetón y la música urbana, con un sonido fresco y romántico.
+                </p>
+                <a href="https://www.youtube.com/channel/UC5Jn-9jqrVvKm9Hx0WW8Pgw">
+                    <button class="boton">Escúchalo en YouTube</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <button class="boton" id="myBtn">Escucha LUNA</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <iframe width="800" height="500" src="VideoFeid.mp4"></iframe>
+                <button id="closeBtn">Cerrar</button>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var closeBtn = document.getElementById("closeBtn");
+
+        btn.onclick = function() {
+            modal.style.display = "flex";
+        }
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
